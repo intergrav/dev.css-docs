@@ -196,6 +196,12 @@ a:hover {
   text-decoration: underline;
 }
 
+@supports not (color: light-dark(#000, #fff)) {
+  a {
+    text-decoration: underline; /* makes links visible on old browsers that don't have light-dark support */
+  }
+}
+
 mark {
   border-radius: 0.375rem;
   padding: 0.125rem 0.25rem;
