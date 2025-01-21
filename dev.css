@@ -253,7 +253,6 @@ header nav ul,
 footer nav ul {
   display: flex;
   overflow-x: auto;
-  scrollbar-width: thin;
   list-style: none;
   padding: 0;
 }
